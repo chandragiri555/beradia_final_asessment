@@ -1,0 +1,30 @@
+<h1> REGISTER</h1>
+<form>
+<p><b> firstname:</b></p>
+<input type="text" class="form-control" [(ngModel)]="registerData.firstname" name="firstname" >
+<br>
+<p><b> lastname:</b></p>
+<input type="text" class="form-control" [(ngModel)]="registerData.lastname" name="lastname" >
+<br>
+<p><b> addresss:</b></p>
+<input type="text" class="form-control" [(ngModel)]="registerData.address" name="address" >
+<br>
+<p><b> city:</b></p>
+<input type="text" class="form-control" [(ngModel)]="registerData.city" name="city" >
+<br>
+<br>
+
+<p>state:</p>
+<select id="state">
+<option value=""> </option>
+  <option value="texas">Volvo</option>
+  <option value="california">Saab</option>
+  <option value="houston">Opel</option>
+  <option value="melbourn">Audi</option>
+</select><br><br>
+
+<button (click)="onSubmit()" type="button">submit</button>
+</form>
+<footer>
+    <p> created by: pravali</p>
+ </footer>

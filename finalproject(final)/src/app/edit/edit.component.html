@@ -1,0 +1,30 @@
+
+<form>
+    <p><b> firstname:</b></p>
+    <input type="text" class="form-control" [(ngModel)]="editdata.firstname" name="firstname" >
+    <br>
+    <p><b> lastname:</b></p>
+    <input type="text" class="form-control" [(ngModel)]="editdata.lastname" name="lastname" >
+    <br>
+    <p><b> addresss:</b></p>
+    <input type="text" class="form-control" [(ngModel)]="editdata.address" name="address" >
+    <br>
+    <p><b> city:</b></p>
+    <input type="text" class="form-control" [(ngModel)]="editdata.city" name="city" >
+    <br>
+    <br>
+    <p>state:</p>
+<select id="state">
+<option value=" "> </option>
+  <option value="texas">Volvo</option>
+  <option value="california">Saab</option>
+  <option value="houston">Opel</option>
+  <option value="melbourn">Audi</option>
+</select><br><br>
+<button  type="delete">delete</button>
+<button type="update"> Update</button>
+<button type="cancel()"> cancel</button>
+</form>
+<footer>
+   <p> created by: pravali</p>
+</footer>
